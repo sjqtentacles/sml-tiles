@@ -3,8 +3,10 @@
 [![CI](https://github.com/sjqtentacles/sml-tiles/actions/workflows/ci.yml/badge.svg)](https://github.com/sjqtentacles/sml-tiles/actions/workflows/ci.yml)
 
 Slippy-map (Web Mercator) tile math for Standard ML: convert between
-longitude/latitude and XYZ tile coordinates, the same scheme used by
-OpenStreetMap and most web map tiles.
+longitude/latitude and XYZ tile coordinates (the same scheme used by
+OpenStreetMap and most web map tiles), compute a tile's geographic bounds,
+encode/decode quadkeys, and walk the tile hierarchy via parent/children/neighbor
+helpers.
 
 ## API
 
